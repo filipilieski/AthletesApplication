@@ -79,8 +79,8 @@ AthletesApplication/
 **Competitions**
 ![image](https://github.com/user-attachments/assets/e8a23454-db20-4d0b-9ef5-947ed459779f)
 **Participations**
-![image](https://github.com/user-attachments/assets/d7688e4d-5ba6-4a50-a9b9-51afa4a01605)
 ![image](https://github.com/user-attachments/assets/742e62db-e685-4900-a437-7f946ae33b5f)
+**Tournament**
 ![image](https://github.com/user-attachments/assets/89bb50f9-fde4-48ac-8930-e2e7e0b1bbcd)
 
 ---
