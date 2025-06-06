@@ -70,17 +70,18 @@ AthletesApplication/
 
 ## 📸 Screenshots
 
+**Home**
 ![Home](https://github.com/user-attachments/assets/8fb7775c-6428-4440-b297-62692b1ee3fc)
 **Teams**
-![image](https://github.com/user-attachments/assets/795d96ac-12b6-476a-bff8-b2e2356d7985)
+![Teams](https://github.com/user-attachments/assets/795d96ac-12b6-476a-bff8-b2e2356d7985)
 **Athletes**
-![image](https://github.com/user-attachments/assets/86ab424b-b7f1-425d-a6f1-11e4a7943c54)
+![Athletes](https://github.com/user-attachments/assets/86ab424b-b7f1-425d-a6f1-11e4a7943c54)
 **Competitions**
-![image](https://github.com/user-attachments/assets/e8a23454-db20-4d0b-9ef5-947ed459779f)
+![Competitions](https://github.com/user-attachments/assets/e8a23454-db20-4d0b-9ef5-947ed459779f)
 **Participations**
-![image](https://github.com/user-attachments/assets/742e62db-e685-4900-a437-7f946ae33b5f)
+![Participations](https://github.com/user-attachments/assets/742e62db-e685-4900-a437-7f946ae33b5f)
 **Tournament**
-![image](https://github.com/user-attachments/assets/89bb50f9-fde4-48ac-8930-e2e7e0b1bbcd)
+![Tournament](https://github.com/user-attachments/assets/89bb50f9-fde4-48ac-8930-e2e7e0b1bbcd)
 
 ---
 
