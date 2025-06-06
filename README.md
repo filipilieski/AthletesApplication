@@ -71,7 +71,7 @@ AthletesApplication/
 ## 📸 Screenshots
 
 **Home**
-![Home](https://github.com/user-attachments/assets/8fb7775c-6428-4440-b297-62692b1ee3fc)
+![Home](screenshots/home)
 **Teams**
 ![Teams](https://github.com/user-attachments/assets/795d96ac-12b6-476a-bff8-b2e2356d7985)
 **Athletes**
