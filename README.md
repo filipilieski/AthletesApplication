@@ -52,15 +52,17 @@ AthletesApplication/
    ```
 
 2. **Open in Visual Studio**
+   ```
    Open `AthletesApplication.sln`
-
-3. **Apply EF Core migrations**
+   ```
+   
+4. **Apply EF Core migrations**
    In the Package Manager Console:
    ```bash
    Update-Database
    ```
 
-4. **Run the project**
+5. **Run the project**
    Press `F5` or run with `dotnet run` if using CLI.
 
 ---
