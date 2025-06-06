@@ -52,9 +52,9 @@ AthletesApplication/
    ```
 
 2. **Open in Visual Studio**
-   ```
+
    Open `AthletesApplication.sln`
-   ```
+   
    
 4. **Apply EF Core migrations**
    In the Package Manager Console:
