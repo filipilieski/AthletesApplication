@@ -73,15 +73,15 @@ AthletesApplication/
 **Home**
 ![Home](screenshots/home.png)
 **Teams**
-![Teams](https://github.com/user-attachments/assets/795d96ac-12b6-476a-bff8-b2e2356d7985)
+![Teams](screenshots/teams.png)
 **Athletes**
-![Athletes](https://github.com/user-attachments/assets/86ab424b-b7f1-425d-a6f1-11e4a7943c54)
+![Athletes](screenshots/athletes.png)
 **Competitions**
-![Competitions](https://github.com/user-attachments/assets/e8a23454-db20-4d0b-9ef5-947ed459779f)
+![Competitions](screenshots/competitions.png)
 **Participations**
-![Participations](https://github.com/user-attachments/assets/742e62db-e685-4900-a437-7f946ae33b5f)
+![Participations](screenshots/participations.png)
 **Tournament**
-![Tournament](https://github.com/user-attachments/assets/89bb50f9-fde4-48ac-8930-e2e7e0b1bbcd)
+![Tournament](screenshots/tournament.png)
 
 ---
 
