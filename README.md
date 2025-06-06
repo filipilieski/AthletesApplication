@@ -47,7 +47,7 @@ AthletesApplication/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/AthletesApplication.git
+   git clone https://github.com/filipilieski/AthletesApplication.git
    cd AthletesApplication
    ```
 
