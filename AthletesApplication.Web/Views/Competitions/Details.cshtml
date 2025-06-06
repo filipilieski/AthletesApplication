@@ -1,0 +1,34 @@
+﻿@model AthletesApplication.Domain.DomainModels.Competition
+
+@{
+    ViewData["Title"] = "Competition Details";
+}
+
+<div class="container mt-4">
+    <div class="card shadow rounded-3">
+        <div class="card-body">
+            <h2 class="card-title mb-4">Competition Details</h2>
+
+            <dl class="row">
+                <dt class="col-sm-3 text-end fw-bold">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt class="col-sm-3 text-end fw-bold">
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Model.StartDate.ToString("dd MMM yyyy")
+                </dd>
+            </dl>
+
+            <div class="mt-4 d-flex justify-content-end">
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning me-2">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

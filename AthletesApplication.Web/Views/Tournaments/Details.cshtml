@@ -1,0 +1,40 @@
+﻿@model AthletesApplication.Domain.DomainModels.Tournament
+
+@{
+    ViewData["Title"] = "Tournament Details";
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+}
+
+<div class="container mt-4">
+    <div class="card shadow rounded-3">
+        <div class="card-body">
+            <h2 class="card-title mb-4">Tournament Overview</h2>
+
+            <table class="table table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Full Name</th>
+                        <th scope="col">Jersey Number</th>
+                        <th scope="col">Date of Birth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ait in Model.Athletes)
+                    {
+                        <tr>
+                            <td>@ait.Athlete.FullName</td>
+                            <td>@ait.Athlete.JerseyNumber</td>
+                            <td>@ait.Athlete.DateOfBirth.ToString("dd MMM yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="alert alert-info text-end">
+                <strong>Total Athletes:</strong> @Model.Athletes.Count()
+            </div>
+
+            <a asp-controller="Participations" asp-action="Index" class="btn btn-primary">Back to Participations</a>
+        </div>
+    </div>
+</div>

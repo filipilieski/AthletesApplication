@@ -1,0 +1,58 @@
+﻿@model IEnumerable<AthletesApplication.Domain.DomainModels.Participation>
+
+@{
+    ViewData["Title"] = "Participations";
+}
+
+<div class="container mt-4">
+    <div class="card shadow rounded-3">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="card-title">My Participations</h2>
+                <form asp-action="Create" asp-controller="Tournaments" method="post">
+                    <button type="submit" class="btn btn-success">Create Tournament</button>
+                </form>
+            </div>
+
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Athlete</th>
+                        <th>Competition</th>
+                        <th>Date Registered</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Athlete.FullName</td>
+                                <td>@item.Competition.Name</td>
+                                <td>@item.DateRegistered.ToString("dd MMM yyyy HH:mm")</td>
+                                <td>
+                                    <form asp-action="Delete" method="post" style="display:inline">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this participation?');">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center">No participations available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</div>

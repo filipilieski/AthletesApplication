@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 text-center">
+            <div class="p-5 bg-light border rounded-3 shadow-sm">
+                <h1 class="display-4 fw-bold mb-3">Welcome to the Athletes Management System</h1>
+                <p class="lead mb-4">
+                    Manage your teams, athletes, competitions, and participations with ease.
+                </p>
+                <a class="btn btn-primary btn-lg me-2" asp-controller="Athletes" asp-action="Index">View Athletes</a>
+                <a class="btn btn-outline-secondary btn-lg" asp-controller="Competitions" asp-action="Index">Browse Competitions</a>
+                <hr class="my-4">
+                <p class="text-muted small">
+                    Learn more about building web apps with ASP.NET Core at the
+                    <a href="https://learn.microsoft.com/aspnet/core" target="_blank">official documentation</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
