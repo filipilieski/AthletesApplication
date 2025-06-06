@@ -63,6 +63,7 @@ AthletesApplication/
    ```
 
 5. **Run the project**
+   
    Press `F5` or run with `dotnet run` if using CLI.
 
 ---
